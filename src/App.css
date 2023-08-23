@@ -1,0 +1,108 @@
+:root {
+  --voting-bg-color: #B4B7FF;
+  --breeds-bg-color: #97EAB9;
+  --galary-bg-color: #FFD280;
+  --button-hover:    #FBE0DC;
+  --button-active:   #FF868E;
+  --font-color:      #FF868E;
+}
+
+.app-container{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+}
+.left-section{
+  
+  width: 45%;
+  height: 100%;
+}
+.left-section > *{
+  width: 65%;
+  height: 60%;
+  margin: 5% auto ;
+}
+
+.header{
+  margin-top: 8vh;
+}
+
+.header h1{
+  font-size: 44px;
+}
+.header h4{
+  color: gray;
+}
+
+.nav{
+  margin-top: 7vh;
+}
+
+.nav h3{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.nav-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-item button{
+  width: 138px;
+  height: 36px;
+  margin-top: 1.5vh;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #FFF;
+  border: none;
+  color: var(--font-color);
+}
+
+.nav-item button:hover{
+  background-color: var(--button-hover);
+}
+.nav-item button:active{
+  background-color: var(--button-active);
+  color: white;
+}
+
+.nav-icon{
+  box-sizing: border-box;
+  margin-top: 5vh;
+  width: 138px;
+  height: 198px;
+  flex-shrink: 0;
+  background-color: var(--voting-bg-color);
+  border-radius: 20px;
+  border: 4px solid rgba(255, 255, 255, 0.60);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.breeds{
+  background-color: var(--breeds-bg-color);
+}
+
+.gallery{
+  background-color: var(--galary-bg-color);
+}
+
+
+
+
+.right-section{
+  display: flex;
+  justify-content: flex-end;
+  width: 55%;
+  height: 100%;
+  background-color: var(--button-hover);
+}
+
+.right-section img{
+  max-width: 775px;
+  max-height: 900px;
+}
