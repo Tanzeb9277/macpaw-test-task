@@ -1,0 +1,27 @@
+:root {
+    --voting-bg-color: #B4B7FF;
+    --breeds-bg-color: #97EAB9;
+    --galary-bg-color: #FFD280;
+    --button-hover:    #FBE0DC;
+    --button-active:   #FF868E;
+    --font-color:      #FF868E;
+  }
+
+
+
+.hero-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FBE0DC;
+    border-radius: 20px;
+    overflow: visible;
+    width: 85%;
+    height: 92.5%;
+    margin: auto 5%;
+}
+
+.hero-container img{
+    width: 775px;
+    height: 900px;
+}

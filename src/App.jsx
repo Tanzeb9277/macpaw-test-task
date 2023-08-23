@@ -2,8 +2,9 @@ import { useState } from 'react'
 import voteTable from './assets/vote-table.png'
 import breeds from './assets/pet-breeds.png'
 import gallery from './assets/images-search.png'
-import hero from './assets/girl-and-pet 1.png'
 import logo from './assets/logo.png'
+import Hero from './components/hero'
+import Cats from './components/Cats'
 import './App.css'
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
     <>
       <div className='app-container'>
         <div className="left-section">
-          <div>
+          <div className='sticky'>
             <div className="logo">
               <img src={logo} alt="" srcset="" />
             </div>
@@ -49,7 +50,8 @@ function App() {
           
         </div>
         <div className="right-section">
-          <img src={hero} alt="" />
+          <Hero></Hero>
+          
         </div>
       </div>
     </>
